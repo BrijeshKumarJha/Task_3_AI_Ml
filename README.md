@@ -1,17 +1,17 @@
 # 🏥 Health Insurance Cost Prediction: Linear Regression
 
-## 📌 Project Overview
+##  Project Overview
 This project implements a Machine Learning pipeline using **Linear Regression** to predict medical insurance costs based on patient data. The objective is to understand how different variables (like age, BMI, and smoking habits) impact insurance charges and to build a predictive model evaluating these relationships.
 
 Through this project, I practically explored Simple vs. Multiple Linear Regression, handled categorical data encoding, and interpreted model coefficients to extract business insights.
 
-## 🛠️ Technologies & Libraries Used
+##  Technologies & Libraries Used
 * **Python 3.x**
 * **Pandas:** Data preprocessing and one-hot encoding
 * **Scikit-Learn (sklearn):** Model building, train-test splitting, and performance evaluation metrics
 * **Matplotlib & Seaborn:** Data visualization and regression line plotting
 
-## 🚀 Pipeline Steps & Key Insights
+##  Pipeline Steps & Key Insights
 
 ### 1. Data Preprocessing & Encoding
 The dataset contained categorical text columns (`sex`, `smoker`, `region`). To make this data readable for the mathematical ML model, I applied **One-Hot Encoding** (using `pd.get_dummies` with `drop_first=True` to avoid multicollinearity/the dummy variable trap).
